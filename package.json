@@ -19,7 +19,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "json-loader": "^0.5.4",
     "lodash": "^3.10.1",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.9",
     "qs": "^3.1.0",
     "react": "^0.14.5",
     "react-copy-to-clipboard": "^3.0.4",
