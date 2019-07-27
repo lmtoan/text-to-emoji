@@ -58,7 +58,7 @@ var App = React.createClass({
             <div className="clearfix">
                 <div className="mb2">
                     <div className="h3">
-                        Translate boring English (😕🇬🇧) into awesome Emoji (💥🎉)
+                        Translate English to Chinese:
                     </div>
                 </div>
 
@@ -84,17 +84,17 @@ var App = React.createClass({
                             {this.state.copied ? 'Copied' : 'Copy'}
                         </button>
                     </CopyToClipboard>&nbsp;
-                    <a target="_blank" href={tweet_url} className="btn btn-outline">Tweet</a>
+                    <a target="_blank" href={tweet_url} className="btn btn-outline">Visualize</a>
                 </div>
 
                 <footer className="border-top mt3 py2">
                     <div className="right">
-                        <a href="https://github.com/brendansudol/text-to-emoji" className="black">
-                            Github
+                        <a href="http://www.github.com/lmtoan" className="black">
+                            Training & Professional Services
                         </a>
                     </div>
-                    <a href="http://www.brendansudol.com" className="black">
-                        Made by <span className="bold">brensudol</span>
+                    <a href="http://www.github.com/lmtoan" className="black">
+                        Made by <span className="bold">Toan Luong</span>
                     </a>
                 </footer>
             </div>
